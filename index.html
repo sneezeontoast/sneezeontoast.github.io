@@ -3,94 +3,145 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Minimal Shop</title>
+  <base href="slapper_media/">
+  <title>Slap the President</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f9f9f9;
-      padding: 2rem;
       margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      padding: 0;
+      background: url('bg.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #0ff;
+      overflow-x: hidden;
     }
-    .card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 1rem;
-      margin: 1rem 0;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      max-width: 400px;
-      width: 100%;
+
+    .container {
       text-align: center;
+      padding: 4rem 2rem;
+      
     }
-    .card img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-bottom: 0.75rem;
+
+    h1 {
+      font-size: 3rem;
+      color: #0ff;
+      text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+      margin-bottom: 1rem;
     }
-    .title {
-      font-size: 1.2rem;
+	
+	footer {
+		color: #000;
+	}
+
+    p {
+      font-size: 1.3rem;
+      color: #aaa;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .glitch {
+      font-size: 1.5rem;
+      color: #0f0;
+      text-shadow: 0 0 3px #0f0, 0 0 6px #0f0;
+      animation: flicker 2s infinite alternate;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      45% { opacity: 0.8; }
+      60% { opacity: 1; }
+      70% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #0ff;
+      color: #000;
       font-weight: bold;
-      margin: 0.5rem 0 0.25rem;
-    }
-    .description {
-      font-size: 0.95rem;
-      color: #666;
-      margin-bottom: 0.5rem;
-    }
-    .price {
-      font-size: 1.1rem;
-      color: #222;
-      margin-bottom: 0.75rem;
-    }
-    .buy-button {
-      background: black;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
+      text-decoration: none;
       border-radius: 8px;
-      font-size: 0.95rem;
-      cursor: pointer;
-      transition: background 0.3s;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      box-shadow: 0 0 15px #0ff;
+      transition: transform 0.2s ease;
     }
-    .buy-button:hover {
-      background: #333;
+
+    .download-btn:hover {
+      transform: scale(1.1);
+      background: #0cf;
+      box-shadow: 0 0 20px #0cf;
+    }
+
+    .preview {
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .face {
+      width: 100px;
+      height: 100px;
+      border: 4px solid red;
+      border-radius: 50%;
+      box-shadow: 0 0 15px red;
+      overflow: hidden;
+      animation: fall 4s infinite linear;
+    }
+
+    .face img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes fall {
+      0% { transform: translateY(-150px); opacity: 0; }
+      20% { opacity: 1; }
+      100% { transform: translateY(600px); opacity: 0; }
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #ccc;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>SLAP THE PRESIDENT</h1>
+    <p class="glitch">The ultimate face-slapping frenzy. Tap fast. Slap hard. Score high.</p>
+    <p>Download the APK and take control in the wildest reflex game ever. Tap falling faces before they hit the ground and rack up your score!</p>
 
-  <h1 style="margin-bottom: 2rem;">Products</h1>
-  <div id="container"></div>
+    <a class="download-btn" href="app-release.apk" download>Download APK</a>
+
+    <div class="preview" id="faceContainer"></div>
+
+    <footer>
+      &copy; 2025 Slap The President. All rights reserved.
+    </footer>
+  </div>
 
   <script>
-    fetch('shop_data.json')
-      .then(response => {
-        if (!response.ok) throw new Error("Failed to load data");
-        return response.json();
-      })
-      .then(data => {
-        const container = document.getElementById("container");
-        data.forEach(item => {
-          const card = document.createElement("div");
-          card.className = "card";
+    const container = document.getElementById('faceContainer');
 
-          card.innerHTML = `
-            <img src="${item.image}" alt="${item.title}" />
-            <div class="title">${item.title}</div>
-            <div class="description">${item.description}</div>
-            <div class="price">$${item.price.toFixed(2)}</div>
-            <button class="buy-button">Buy</button>
-          `;
+    for (let i = 0; i < 9; i++) {
+      const faceDiv = document.createElement('div');
+      faceDiv.className = 'face';
+      faceDiv.style.animationDelay = `${Math.random() * 3}s`;
 
-          container.appendChild(card);
-        });
-      })
-      .catch(error => {
-        console.error("Error:", error);
-      });
+      const imgNum = Math.floor(Math.random() * 17) + 1;
+      const img = document.createElement('img');
+      img.src = `${imgNum}.png`;
+
+      faceDiv.appendChild(img);
+      container.appendChild(faceDiv);
+    }
   </script>
-
 </body>
 </html>
