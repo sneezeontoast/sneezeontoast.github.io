@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Sunset at the Lake",
+    "description": "A beautiful sunset with orange skies and calm water.",
+    "price": 10.00,
+    "image": "https://via.placeholder.com/600x300?text=Sunset"
+  },
+  {
+    "title": "Mountain Peak",
+    "description": "Snow-covered peak with a clear blue sky above.",
+    "price": 15.50,
+    "image": "https://via.placeholder.com/600x300?text=Mountain"
+  },
+  {
+    "title": "City Lights",
+    "description": "Downtown cityscape at night with glowing lights.",
+    "price": 12.75,
+    "image": "https://via.placeholder.com/600x300?text=City"
+  }
+]
