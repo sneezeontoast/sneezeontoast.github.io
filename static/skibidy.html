@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fullscreen Only Exit with F11</title>
+<style>
+  body {
+    background-color: #111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  h1 { font-weight: normal; }
+  p { font-size: 1.2em; margin-top: 1em; }
+</style>
+</head>
+<body>
+  <h1>Fullscreen Mode</h1>
+  <p>Press F11 to exit fullscreen.<br>ESC does nothing.</p>
+
+  <script>
+    const { remote, globalShortcut } = require('electron');
+
+    const currentWindow = remote.getCurrentWindow();
+    let forceExit = false;
+
+    // Start in fullscreen
+    currentWindow.setFullScreen(true);
+
+    // Re-enter fullscreen if user tries to exit without F11
+    currentWindow.on('leave-full-screen', () => {
+      if (!forceExit) currentWindow.setFullScreen(true);
+    });
+
+    // Register F11 to toggle fullscreen
+    globalShortcut.register('F11', () => {
+      forceExit = !forceExit;
+      currentWindow.setFullScreen(!forceExit);
+    });
+
+    // Prevent ESC default inside the renderer
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') e.preventDefault();
+    });
+  </script>
+</body>
+</html>
