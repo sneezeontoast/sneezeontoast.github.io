@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Fullscreen Only Exit with F11</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   body {
     background-color: #111;
@@ -34,33 +35,39 @@
 </head>
 <body>
   <h1>Fullscreen Mode</h1>
-  <p>Press F11 to exit fullscreen.<br>ESC does nothing.</p>
+  <p>Tap the button to enter fullscreen.<br>On desktop, press F11 to exit.</p>
   <button id="fullscreenBtn">Go Fullscreen</button>
-  
-  
 
   <script>
     const btn = document.getElementById("fullscreenBtn");
-	
-	// Register F11 to toggle fullscreen 
-	globalShortcut.register('F11', () => {currentWindow.setFullScreen(true); });
 
-    // Go fullscreen when button is clicked
-    btn.addEventListener("click", () => {
-      if (document.documentElement.requestFullscreen) {
-        document.documentElement.requestFullscreen();
-      } else if (document.documentElement.webkitRequestFullscreen) { // Safari
-        document.documentElement.webkitRequestFullscreen();
-      } else if (document.documentElement.msRequestFullscreen) { // IE11
-        document.documentElement.msRequestFullscreen();
+    // Cross-browser fullscreen request
+    function goFullscreen() {
+      const elem = document.documentElement;
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { // Safari
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { // IE11
+        elem.msRequestFullscreen();
+      }
+    }
+
+    // Attach click/tap event
+    btn.addEventListener("click", goFullscreen);
+
+    // Try also triggering fullscreen on mobile tap anywhere
+    document.body.addEventListener("touchend", () => {
+      if (!document.fullscreenElement &&
+          !document.webkitFullscreenElement &&
+          !document.msFullscreenElement) {
+        goFullscreen();
       }
     });
 
-    // Prevent ESC from exiting fullscreen (browser limitation: some ignore this)
+    // Attempt to block ESC (desktop only, mobile ignores ESC anyway)
     window.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") {
-        e.preventDefault();
-      }
+      if (e.key === "Escape") e.preventDefault();
     });
   </script>
 </body>
