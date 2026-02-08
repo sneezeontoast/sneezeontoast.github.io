@@ -1,1 +1,14 @@
-
+[
+  {
+    "index": 0,
+    "name": "Day 1",
+    "description": "Text",
+    "links": ["https://a.com"]
+  },
+  {
+    "index": 1,
+    "name": "Day 2",
+    "description": "Text",
+    "links": ["https://b.com"]
+  }
+]
