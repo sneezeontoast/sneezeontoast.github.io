@@ -10,5 +10,35 @@
     "name": "Day 2",
     "description": "Text",
     "links": ["https://b.com"]
+  },
+  {
+    "index": 2,
+    "name": "Day 3",
+    "description": "Text",
+    "links": ["https://b.com"]
+  },
+  {
+    "index": 3,
+    "name": "Day 4",
+    "description": "Text",
+    "links": ["https://b.com"]
+  },
+  {
+    "index": 4,
+    "name": "Day 5",
+    "description": "Text",
+    "links": ["https://b.com"]
+  },
+  {
+    "index": 5,
+    "name": "Day 6",
+    "description": "Text",
+    "links": ["https://b.com"]
+  },
+  {
+    "index": 6,
+    "name": "Day 7",
+    "description": "Text",
+    "links": ["https://b.com"]
   }
 ]
