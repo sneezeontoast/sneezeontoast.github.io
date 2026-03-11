@@ -216,37 +216,108 @@
     "date": "02/03/2026"
   },
   {
-    "date": "04/03/2026",
     "index": 24,
+    "name": "Day 25",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "03/03/2026"
+  },
+  {
+    "index": 25,
+    "name": "Day 26",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "04/03/2026"
+  },
+  {
+    "index": 26,
+    "name": "Day 27",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "05/03/2026"
+  },
+  {
+    "index": 27,
+    "name": "Day 28",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "06/03/2026"
+  },
+  {
+    "index": 28,
+    "name": "Day 29",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "07/03/2026"
+  },
+  {
+    "index": 29,
+    "name": "Day 30",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "08/03/2026"
+  },
+  {
+    "index": 30,
+    "name": "Day 31",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "09/03/2026"
+  },
+  {
+    "index": 31,
+    "name": "Day 32",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "10/03/2026"
+  },
+  {
+    "date": "11/03/2026",
+    "index": 32,
+    "name": "Gods way often isn't always radical.",
+    "description": "We often expect jesus to be radical like we have seen or heard from other people. This is great! And God does do miracles like that but sometimes god loves to do small things and influence the bigger picture This is exactly like in the old testiment people where waiting for jesus as a warrior but he came as a servant. So I encourage you to look for the small things which then will increase your faith to start seeing bigger miracles.",
+    "links": []
+  },
+  {
+    "date": "12/03/2026",
+    "index": 33,
     "name": "God gives you ALL you need!",
     "description": "God gives you all you need physicly and spiritual so drink! Eat! And be satisfied!",
     "links": []
   },
   {
-    "date": "03/03/2026",
-    "index": 25,
-    "name": "Gods way often isn't always radical.",
-    "description": "We often expect jesus to be radical like we have seen or heard from other people. This is great! And God does do miracles like that but sometimes god loves to do small things and influence the bigger picture This is exactly like in the old testiment people where waiting for jesus as a warrior but he came as a servant. So I encourage you to look for the small things which then will increase your faith to start seeing bigger miracles.",
-    "links": []
-  },
-  
-  {
-    "date": "05/03/2026",
-    "index": 26,
+    "date": "13/03/2026",
+    "index": 34,
     "name": "Don't confine God!",
     "description": "In the bible a man was lying near the pool waiting for the pool to heal him but jesus came  and heal him! So God can move in ways you can't comprehend so dont confine God!",
     "links": []
   },
   {
-    "date": "06/03/2026",
-    "index": 27,
+    "date": "14/03/2026",
+    "index": 35,
     "name": "God is just so good!",
     "description": "Soo soo good! He made all you see around you! The WHOLE UNIVERSE all out of LOVE for YOU!!!",
     "links": []
   },
   {
-    "date": "07/03/2026",
-    "index": 28,
+    "date": "15/03/2026",
+    "index": 36,
     "name": "Gods spirit fills us up till we overflow!",
     "description": "Gods holy's spirit & love fills us u,  and it gives us spare baskets to share with others. It fills us till we overflow, like with the feeding of the five thousand.",
     "links": []
