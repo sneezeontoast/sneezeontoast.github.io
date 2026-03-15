@@ -288,36 +288,72 @@
     "date": "10/03/2026"
   },
   {
-    "date": "11/03/2026",
     "index": 32,
+    "name": "Day 33",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "11/03/2026"
+  },
+  {
+    "index": 33,
+    "name": "Day 34",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "12/03/2026"
+  },
+  {
+    "index": 34,
+    "name": "Day 35",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "13/03/2026"
+  },
+  {
+    "index": 35,
+    "name": "Day 36",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "14/03/2026"
+  },
+  {
+    "date": "15/03/2026",
+    "index": 36,
     "name": "Gods way often isn't always radical.",
     "description": "We often expect jesus to be radical like we have seen or heard from other people. This is great! And God does do miracles like that but sometimes god loves to do small things and influence the bigger picture This is exactly like in the old testiment people where waiting for jesus as a warrior but he came as a servant. So I encourage you to look for the small things which then will increase your faith to start seeing bigger miracles.",
     "links": []
   },
   {
-    "date": "12/03/2026",
-    "index": 33,
+    "date": "16/03/2026",
+    "index": 37,
     "name": "God gives you ALL you need!",
     "description": "God gives you all you need physicly and spiritual so drink! Eat! And be satisfied!",
     "links": []
   },
   {
-    "date": "13/03/2026",
-    "index": 34,
+    "date": "17/03/2026",
+    "index": 38,
     "name": "Don't confine God!",
     "description": "In the bible a man was lying near the pool waiting for the pool to heal him but jesus came  and heal him! So God can move in ways you can't comprehend so dont confine God!",
     "links": []
   },
   {
-    "date": "14/03/2026",
-    "index": 35,
+    "date": "18/03/2026",
+    "index": 39,
     "name": "God is just so good!",
     "description": "Soo soo good! He made all you see around you! The WHOLE UNIVERSE all out of LOVE for YOU!!!",
     "links": []
   },
   {
-    "date": "15/03/2026",
-    "index": 36,
+    "date": "19/03/2026",
+    "index": 40,
     "name": "Gods spirit fills us up till we overflow!",
     "description": "Gods holy's spirit & love fills us u,  and it gives us spare baskets to share with others. It fills us till we overflow, like with the feeding of the five thousand.",
     "links": []
