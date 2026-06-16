@@ -909,45 +909,342 @@
     "date": "18/05/2026"
   },
   {
-    "date": "19/05/2026",
     "index": 101,
+    "name": "Day 102",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "19/05/2026"
+  },
+  {
+    "index": 102,
+    "name": "Day 103",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "20/05/2026"
+  },
+  {
+    "index": 103,
+    "name": "Day 104",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "21/05/2026"
+  },
+  {
+    "index": 104,
+    "name": "Day 105",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "22/05/2026"
+  },
+  {
+    "index": 105,
+    "name": "Day 106",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "23/05/2026"
+  },
+  {
+    "index": 106,
+    "name": "Day 107",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "24/05/2026"
+  },
+  {
+    "index": 107,
+    "name": "Day 108",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "25/05/2026"
+  },
+  {
+    "index": 108,
+    "name": "Day 109",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "26/05/2026"
+  },
+  {
+    "index": 109,
+    "name": "Day 110",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "27/05/2026"
+  },
+  {
+    "index": 110,
+    "name": "Day 111",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "28/05/2026"
+  },
+  {
+    "index": 111,
+    "name": "Day 112",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "29/05/2026"
+  },
+  {
+    "index": 112,
+    "name": "Day 113",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "30/05/2026"
+  },
+  {
+    "index": 113,
+    "name": "Day 114",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "31/05/2026"
+  },
+  {
+    "index": 114,
+    "name": "Day 115",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "01/06/2026"
+  },
+  {
+    "index": 115,
+    "name": "Day 116",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "02/06/2026"
+  },
+  {
+    "index": 116,
+    "name": "Day 117",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "03/06/2026"
+  },
+  {
+    "index": 117,
+    "name": "Day 118",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "04/06/2026"
+  },
+  {
+    "index": 118,
+    "name": "Day 119",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "05/06/2026"
+  },
+  {
+    "index": 119,
+    "name": "Day 120",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "06/06/2026"
+  },
+  {
+    "index": 120,
+    "name": "Day 121",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "07/06/2026"
+  },
+  {
+    "index": 121,
+    "name": "Day 122",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "08/06/2026"
+  },
+  {
+    "index": 122,
+    "name": "Day 123",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "09/06/2026"
+  },
+  {
+    "index": 123,
+    "name": "Day 124",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "10/06/2026"
+  },
+  {
+    "index": 124,
+    "name": "Day 125",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "11/06/2026"
+  },
+  {
+    "index": 125,
+    "name": "Day 126",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "12/06/2026"
+  },
+  {
+    "index": 126,
+    "name": "Day 127",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "13/06/2026"
+  },
+  {
+    "index": 127,
+    "name": "Day 128",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "14/06/2026"
+  },
+  {
+    "index": 128,
+    "name": "Day 129",
+    "description": "Placeholder Text",
+    "links": [
+      "https://example.com/placeholder"
+    ],
+    "date": "15/06/2026"
+  },
+  {
+    "date": "16/06/2026",
+    "index": 129,
     "name": "Gods way often isn't always radical.",
     "description": "We often expect jesus to be radical like we have seen or heard from other people. This is great! And God does do miracles like that but sometimes god loves to do small things and influence the bigger picture This is exactly like in the old testiment people where waiting for jesus as a warrior but he came as a servant. So I encourage you to look for the small things which then will increase your faith to start seeing bigger miracles.",
     "links": []
   },
   {
-    "date": "20/05/2026",
-    "index": 102,
+    "date": "17/06/2026",
+    "index": 130,
     "name": "God gives you ALL you need!",
     "description": "God gives you all you need physicly and spiritual so drink! Eat! And be satisfied!",
     "links": []
   },
   {
-    "date": "21/05/2026",
-    "index": 103,
+    "date": "18/06/2026",
+    "index": 131,
     "name": "Don't confine God!",
     "description": "In the bible a man was lying near the pool waiting for the pool to heal him but jesus came  and heal him! So God can move in ways you can't comprehend so dont confine God!",
     "links": []
   },
   {
-    "date": "22/05/2026",
-    "index": 104,
+    "date": "19/06/2026",
+    "index": 132,
     "name": "God is just so good!",
     "description": "Soo soo good! He made all you see around you! The WHOLE UNIVERSE all out of LOVE for YOU!!!",
     "links": []
   },
   {
-    "date": "23/05/2026",
-    "index": 105,
+    "date": "20/06/2026",
+    "index": 133,
     "name": "Gods spirit fills us up till we overflow!",
     "description": "Gods holy's spirit & love fills us u,  and it gives us spare baskets to share with others. It fills us till we overflow, like with the feeding of the five thousand.",
     "links": []
   },
   {
-    "date": "24/05/2026",
-    "index": 106,
+    "date": "21/06/2026",
+    "index": 134,
     "name": "Work for god isnt the same as earthly work",
     "description": "The work god wants you do do isnt about being super productive or succesfull but just trusting your life is in his hands and \"wasting\" time with him which in this wolds attitude is wasted but God v",
+    "links": []
+  },
+  {
+    "date": "22/06/2026",
+    "index": 135,
+    "name": "Do youi have fear of god?",
+    "description": "The bible says \"The fear of the LORD is the beginning of wisdom\" so its clearly important fear opf the lord can mean: Hating what god hates and loving what god loves it also means having a level of respect and honouring of him knowing that you are guilty that he is forgiven and that none of us are worthy enough to see his face.",
+    "links": [
+      "Proverbs 9:10",
+      "Exodus 33:20"
+    ]
+  },
+  {
+    "date": "23/06/2026",
+    "index": 136,
+    "name": "You actions dont make you go into gods kingdom!",
+    "description": "You don't have to earn your way ted religious instead god has sacrificed and all you have to do is repent. So ask god to forgive you today and you dont have to hold on to past guilt and mistakes but praise god for his wonderfull gift.",
+    "links": []
+  },
+  {
+    "date": "24/06/2026",
+    "index": 137,
+    "name": "The creator of the universe wants to know you!",
+    "description": "This is an endless truth that has more and more personal layers god wants to unpack with you, you where made to have a relationship with god! embrace you purpose and talk to the creator of the universe who wants to hear your voice today!",
+    "links": []
+  },
+  {
+    "date": "25/06/2026",
+    "index": 138,
+    "name": "God has a fountain of abundance",
+    "description": "Jesus said that anyone who drinks the water he offers will never be thirsty again so god has things for you don't even know yet so search for the gifts gods given you and use them to serve Yaweh",
+    "links": []
+  },
+  {
+    "date": "26/06/2026",
+    "index": 139,
+    "name": "Be fully made with god!",
+    "description": "God wants you to become fully made with him the bible tells us to be fully devoted to god. the word used their is shleimut which derives from shallom - peace. This presents this idea that in god your meaning and purpose is made filled.",
+    "links": []
+  },
+  {
+    "date": "27/06/2026",
+    "index": 140,
+    "name": "God excepts you may have doubts.",
+    "description": "Jesus accepts thomas' doubting when he reapears and shows himself to him. When you doubt searc god and dont hide from christianity but embrace see if it is true. See his wounds on his hands and feet.",
     "links": []
   }
 ]
